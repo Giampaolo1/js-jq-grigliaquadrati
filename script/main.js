@@ -12,7 +12,19 @@ $( document ).ready(function() {
 
   $(".square").click(function() {
     $(this).css("background","lightgreen");
+
+    var contgreen = 0;
+    var contred = 0;
+    var green = true;
+
+    if (green == true) {
+      contgreen = +1;
+      } else {
+      contred = +1;
+    }
   });
+
+  console.log("red "contred,"green "contred);
 
   $(".red").click(function() {
     $(this).css("background","red");
