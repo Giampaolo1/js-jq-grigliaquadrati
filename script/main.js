@@ -11,20 +11,21 @@
 $( document ).ready(function() {
 
   $(".square").click(function() {
-    $(this).css("background","lightgreen");
+    $(this).css("background","lightgreen")
 
     var contgreen = 0;
     var contred = 0;
-    var green = true;
+    // var green = true;
 
-    if (green == true) {
+    // if (green == true) {
       contgreen = +1;
-      } else {
+      // } else {
       contred = +1;
-    }
+
+    console.log("red ",contred, "green ",contred);
+
   });
 
-  console.log("red "contred,"green "contred);
 
   $(".red").click(function() {
     $(this).css("background","red");
