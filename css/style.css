@@ -10,9 +10,9 @@
   width:70px;
 	height:70px;
   border: solid 0.5px;
+  /* background: white; */
 }
 
 .linea {
   display: flex;
-
 }

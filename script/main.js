@@ -10,6 +10,13 @@
 
 $( document ).ready(function() {
 
+  $(".square").click(function() {
+    $(this).css("background","lightgreen");
+  });
+
+  $(".red").click(function() {
+    $(this).css("background","red");
+  });
 
 
 
@@ -27,5 +34,6 @@ $( document ).ready(function() {
 
 
 
-  
+
+
 });
