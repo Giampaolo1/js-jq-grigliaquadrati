@@ -16,3 +16,8 @@
 .linea {
   display: flex;
 }
+
+.cont {
+  font-size: 20px;
+  font-weight: bold;
+}
