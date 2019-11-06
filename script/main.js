@@ -15,34 +15,23 @@ $( document ).ready(function() {
 
     var contgreen = 0;
     var contred = 0;
-    // var green = true;
+    var green = true;
 
-    // if (green == true) {
+    if (green == true) {
       contgreen = +1;
-      // } else {
+       } else {
       contred = +1;
+      }
 
     console.log("red ",contred, "green ",contred);
-
+    
   });
+
 
 
   $(".red").click(function() {
     $(this).css("background","red");
   });
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
