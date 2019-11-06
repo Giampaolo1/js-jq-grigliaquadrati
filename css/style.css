@@ -17,7 +17,13 @@
   display: flex;
 }
 
-.cont {
+.cont  {
   font-size: 20px;
   font-weight: bold;
 }
+  .red {
+    color: red;
+  }
+  .green {
+    color: lightgreen;
+  }
