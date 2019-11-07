@@ -18,6 +18,8 @@ $( document ).ready(function() {
 
     contgreen ++;
 
+    $(this).off();
+
     console.log('VERDE', contgreen)
     $("#verde").text(contgreen)
 
@@ -40,6 +42,8 @@ $( document ).ready(function() {
     $(this).css("background","red");
 
     contred++;
+
+    $(this).off();
 
     console.log('ROSSO', contred)
 
